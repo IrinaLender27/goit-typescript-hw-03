@@ -32,6 +32,7 @@ abstract class House {
       console.log("Closed");
     }
   }
+  abstract openDoor(key: Key): void;
 }
 class MyHouse extends House {
   openDoor(key: Key): void {
